@@ -227,7 +227,7 @@ ifeq ($(shell uname -s), Darwin)
 $(STATIC_LIB): $(OBJS)
 	libtool -static $(OBJS) -o $(STATIC_LIB)
 $(SHARED_LIB): $(OBJS)
-	libtool -dynamic $(OBJS) -o $(SHARED_LIB)
+	$(CC) -dynamiclib $(OBJS) -o $(SHARED_LIB)
 else
 $(STATIC_LIB): $(OBJS)
 	rm -f $(STATIC_LIB)
