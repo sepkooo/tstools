@@ -4,7 +4,7 @@ I do not own this repository, it is forked from user kynesim.
 I did not participate on code creating, editing or designing. 
 All credits for creating tstools does not go to me.
 
-This forked copy is fix for MAC devices.
+This forked copy contains fix for MAC devices.
 This fix is tested on macOS High Sierra - versions 10.13.6 and 10.13.5 .
 
 This is a set of cross-platform command line tools for working with MPEG data.
